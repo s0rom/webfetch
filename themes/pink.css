@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-main: #eeeeee;
+    --bg-surface: #f7f7f7;
+    --bg-element: #ffffff;
+    --bg-element-hover: #f0f0f0;
+    --border-color: #dddddd;
+    --text-main: #111111;
+    --text-muted: #555555;
+    --text-disabled: #888888;
+    --genre-menu: #cccccc;
+    --accent: #f7b;
+    --accent-border: #b37;
+    --accent-hover: #f59;
+    --accent-hover-border: #f7b;
+    --icon-filter: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-main: #111111;
+    --bg-surface: #1a1a1a;
+    --bg-element: #222;
+    --bg-element-hover: #333333;
+    --border-color: #444;
+    --text-main: #eee;
+    --text-muted: #aaa;
+    --text-disabled: #666;
+    --genre-menu: #555;
+    --accent: #f7b;
+    --accent-border: #b37;
+    --accent-hover: #f59;
+    --accent-hover-border: #f7b;
+    --icon-filter: brightness(0) invert(1);
+  }
+}
+
