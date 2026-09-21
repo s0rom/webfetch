@@ -123,6 +123,23 @@ const OS_LOGOS = {
                  \`\`\`-=:OOOO:=-´´´
 `,
 
+  nixos: `
+         $1_      $2___    _      
+        $1+o\   $2\  \  / \     
+        $1\oo\   $2\  \/  /     
+      $1,oo+oo+ooo$2\   ,/ $1+\   
+     $1<ooooooooooo$2\  \ $1/os;  
+         $2/''/     \  ,$1oo/   
+    $2,───'  /       \,$1oooooo,
+    $2\__   ;$1s       /oo/sss>'
+      $2/  /$1so\$2_____$1/ss/$2____  
+     $2', / $1\oo\    $2'''     / 
+      \/ $1/sooo\$2───.  .───'  
+        $1/so/\oo\   $2\  \     
+        $1\o/  \s+\   $2\__\    
+              $1'''      
+  `,
+
   windows: `
     $2/////////////////  $3/////////////////
     $2/////////////////  $3/////////////////
@@ -215,6 +232,7 @@ function getLogoForOS(osName) {
   if (str.includes("debian")) return OS_LOGOS.debian;
   if (str.includes("fedora")) return OS_LOGOS.fedora;
   if (str.includes("mint")) return OS_LOGOS.mint;
+  if (str.includes("nix")) return OS_LOGOS.nixos;
   if (str.includes("win")) return OS_LOGOS.windows;
   if (str.includes("mac") || str.includes("darwin")) return OS_LOGOS.macos;
   if (str.includes("android")) return OS_LOGOS.android;
